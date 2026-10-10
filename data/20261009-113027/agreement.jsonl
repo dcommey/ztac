@@ -1,0 +1,52 @@
+{"path":"ordinary.txt","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"ordinary.txt","access":"write","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"nested/deep/plain.txt","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"nested/deep/plain.txt","access":"write","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"quote\"name.txt","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"quote\"name.txt","access":"write","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":".env","access":"read","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":".env","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"nested/.env.local","access":"read","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"nested/.env.local","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"nested/.ENV.LOCAL","access":"read","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"nested/.ENV.LOCAL","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":".env.example","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":".env.example","access":"write","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"nested/.ENV.EXAMPLE","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"nested/.ENV.EXAMPLE","access":"write","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"cert.pem.sample","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"cert.pem.sample","access":"write","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"cert.pem","access":"read","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"cert.pem","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"id_ed25519.pub","access":"read","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"id_ed25519.pub","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"scripts/release.sh","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"scripts/release.sh","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":".github/workflows/ci.yml","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":".github/workflows/ci.yml","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":".VSCode/tasks.json","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":".VSCode/tasks.json","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":".claude/settings.json","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":".claude/settings.json","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"tools/HEAD","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"tools/HEAD","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"venv/pyvenv.cfg","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"venv/pyvenv.cfg","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"venv/bin/python3","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"venv/bin/python3","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"overlap/allowed.txt","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"overlap/allowed.txt","access":"write","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"overlap/blocked.txt","access":"read","broker":"deny","sandbox_permitted":false,"expected_broker":"deny","expected_sandbox":false,"difference":"","passed":true}
+{"path":"overlap/blocked.txt","access":"write","broker":"deny","sandbox_permitted":false,"expected_broker":"deny","expected_sandbox":false,"difference":"","passed":true}
+{"path":"read-only.dat","access":"read","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"read restriction also prevents renaming","passed":true}
+{"path":"read-only.dat","access":"write","broker":"allow","sandbox_permitted":false,"expected_broker":"allow","expected_sandbox":false,"difference":"read restriction also prevents renaming","passed":true}
+{"path":"write-only.dat","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":"write-only.dat","access":"write","broker":"needs_approval","sandbox_permitted":false,"expected_broker":"needs_approval","expected_sandbox":false,"difference":"","passed":true}
+{"path":"denied.dat","access":"read","broker":"deny","sandbox_permitted":false,"expected_broker":"deny","expected_sandbox":false,"difference":"","passed":true}
+{"path":"denied.dat","access":"write","broker":"deny","sandbox_permitted":false,"expected_broker":"deny","expected_sandbox":false,"difference":"","passed":true}
+{"path":".git/config","access":"read","broker":"allow","sandbox_permitted":true,"expected_broker":"allow","expected_sandbox":true,"difference":"","passed":true}
+{"path":".git/config","access":"write","broker":"deny","sandbox_permitted":false,"expected_broker":"deny","expected_sandbox":false,"difference":"","passed":true}
+{"path":"line\nbreak/.env","access":"read","broker":"deny","sandbox_permitted":false,"expected_broker":"deny","expected_sandbox":false,"difference":"broker rejects control characters","passed":true}
+{"path":"line\nbreak/.env","access":"write","broker":"deny","sandbox_permitted":false,"expected_broker":"deny","expected_sandbox":false,"difference":"broker rejects control characters","passed":true}
+{"path":"line\nbreak/plain.txt","access":"read","broker":"deny","sandbox_permitted":true,"expected_broker":"deny","expected_sandbox":true,"difference":"broker rejects control characters","passed":true}
+{"path":"line\nbreak/plain.txt","access":"write","broker":"deny","sandbox_permitted":true,"expected_broker":"deny","expected_sandbox":true,"difference":"broker rejects control characters","passed":true}

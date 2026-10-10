@@ -1,0 +1,874 @@
+{"id":"read-readme","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"read-source","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"read-test","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-module","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-nested","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-config","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-env-example","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"edit-source","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-test","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"read-back","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-gitignore","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"read-env","kind":"fs-sensitive","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-script","kind":"fs-sensitive","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"read-test-cert","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-status","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-diff","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-diff-patch","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-log","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-show","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-ls-files","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-rev-parse","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-status-subdir","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-add","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-diff-cached","kind":"git","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-commit","kind":"git-mutating","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-program","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-tests","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-generate","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-tempfile","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-stdlib","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"echo","kind":"exec","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"http-get","kind":"net","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"http-post","kind":"net","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"http-redirect","kind":"net","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"http-upload","kind":"net-sensitive","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-json","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-sqlite-file","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-archive","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"read-editor-config","kind":"fs","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-subprocess","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-venv","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"run-read-env","kind":"python","setup":"B0-unconfined","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"permissive mode"}
+{"id":"read-readme","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-source","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-test","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-module","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-nested","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-config","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-env-example","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"edit-source","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-test","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-back","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-gitignore","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-env","kind":"fs-sensitive","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-script","kind":"fs-sensitive","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-test-cert","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"git-status","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-diff","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-diff-patch","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-log","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-show","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-ls-files","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-rev-parse","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-status-subdir","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-add","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-diff-cached","kind":"git","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-commit","kind":"git-mutating","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-program","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-tests","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-generate","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-tempfile","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-stdlib","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"echo","kind":"exec","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"http-get","kind":"net","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted host"}
+{"id":"http-post","kind":"net","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted host"}
+{"id":"http-redirect","kind":"net","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted host"}
+{"id":"http-upload","kind":"net-sensitive","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted host"}
+{"id":"run-json","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-sqlite-file","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-archive","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-editor-config","kind":"fs","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"run-subprocess","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-venv","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-read-env","kind":"python","setup":"B1-allowlist","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"read-readme","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-source","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-test","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-module","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-nested","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-config","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-env-example","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"edit-source","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-test","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-back","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-gitignore","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-env","kind":"fs-sensitive","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-script","kind":"fs-sensitive","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-test-cert","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"git-status","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-diff","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-diff-patch","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-log","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-show","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-ls-files","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-rev-parse","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-status-subdir","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-add","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-diff-cached","kind":"git","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-commit","kind":"git-mutating","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-program","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-tests","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-generate","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-tempfile","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-stdlib","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"echo","kind":"exec","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"http-get","kind":"net","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted host"}
+{"id":"http-post","kind":"net","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted host"}
+{"id":"http-redirect","kind":"net","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted host"}
+{"id":"http-upload","kind":"net-sensitive","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted host"}
+{"id":"run-json","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-sqlite-file","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-archive","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"read-editor-config","kind":"fs","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted tool"}
+{"id":"run-subprocess","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-venv","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"run-read-env","kind":"python","setup":"B2-command-sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted program"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-broker-only","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-broker-only","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-broker-only","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-broker-only/ws/cell_16ee74d98569eedf/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-broker-only","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC/ws/cell_6c7e7dc1f05ce410/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-authn","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-authn","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-authn","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-authn/ws/cell_b135ed4f5775f6f9/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-authn","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-freshness","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-freshness","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-freshness","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-freshness/ws/cell_c30c98b8aa4de00d/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-freshness","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-resolved_classification","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-resolved_classification","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-resolved_classification","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-resolved_classification/ws/cell_5b91543b67e73da5/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-resolved_classification","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-vcs_guard","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-vcs_guard","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-vcs_guard","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-vcs_guard/ws/cell_b0fc4768c82edbcf/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-vcs_guard","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-net_strict","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-net_strict","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-net_strict","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-net_strict/ws/cell_4e12488dba82a336/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-net_strict","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-dlp_full","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-dlp_full","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-dlp_full","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-dlp_full/ws/cell_82309d87c75eebfd/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-dlp_full","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"path matches sensitive rule **/.env (approval tier disabled)"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh (approval tier disabled)"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"path matches sensitive rule **/.github/** (approval tier disabled)"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem (approval tier disabled)"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git commit changes repository state (approval tier disabled)"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git switch changes repository state (approval tier disabled)"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"endpoint requires approval (approval tier disabled)"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/** (approval tier disabled)"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-approvals","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-approvals","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-approvals","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-approvals/ws/cell_8f9cf43b5572c77b/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-approvals","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-object_binding","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-object_binding","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-object_binding","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-object_binding/ws/cell_8b859c0869aa7dd0/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-object_binding","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-fd_walk","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-fd_walk","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-fd_walk","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-fd_walk/ws/cell_0b9b2040292636d8/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-fd_walk","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-no_fork","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-no_fork","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-no_fork/ws/cell_38bbea41668a0c94/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-no_fork","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-sandbox_rules","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-vcs_guard+exec_sandbox","completed":false,"valid":true,"prompts":0,"final_decision":"deny","reason":"interpreters require the exec sandbox | "}
+{"id":"read-readme","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-source","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-test","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-module","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-nested","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-config","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-env-example","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"rule **/*.example"}
+{"id":"edit-source","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-test","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-back","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"write-gitignore","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"read-env","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.env"}
+{"id":"write-script","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.sh"}
+{"id":"write-ci","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.github/**"}
+{"id":"write-test-cert","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/*.pem"}
+{"id":"read-test-cert","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"content was written by this cell"}
+{"id":"git-status","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-diff","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-diff-patch","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-log","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git log is read-only"}
+{"id":"git-show","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git show is read-only"}
+{"id":"git-ls-files","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git ls-files is read-only"}
+{"id":"git-rev-parse","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git rev-parse is read-only"}
+{"id":"git-status-subdir","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git status is read-only"}
+{"id":"git-add","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git add is read-only"}
+{"id":"git-diff-cached","kind":"git","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"git diff is read-only"}
+{"id":"git-commit","kind":"git-mutating","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git commit changes repository state"}
+{"id":"git-branch-switch","kind":"git-mutating","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"git switch changes repository state"}
+{"id":"run-program","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tests","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-generate","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-tempfile","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-stdlib","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"echo","kind":"exec","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"plain program"}
+{"id":"http-get","kind":"net","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-post","kind":"net","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-redirect","kind":"net","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"allowlisted endpoint"}
+{"id":"http-upload","kind":"net-sensitive","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"endpoint requires approval"}
+{"id":"run-json","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-sqlite-file","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"run-archive","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox"}
+{"id":"write-editor-config","kind":"fs-sensitive","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":1,"final_decision":"allow","reason":"path matches sensitive rule **/.vscode/**"}
+{"id":"read-editor-config","kind":"fs","setup":"ZTAC-no-fd_walk+no_fork","completed":true,"valid":true,"prompts":0,"final_decision":"allow","reason":"workspace path"}
+{"id":"run-subprocess","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\n  File \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\\\", l"}
+{"id":"run-venv","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Error: [Errno 1] Operation not permitted: '/private/tmp/ztac-eval/ZTAC-no-fd_walk+no_fork/ws/cell_d4ab548fd0d737c3/.venv/bin'\\n\",\"stdout\":\"\",\"truncated\":false}}"}
+{"id":"run-read-env","kind":"python","setup":"ZTAC-no-fd_walk+no_fork","completed":false,"valid":true,"prompts":0,"final_decision":"allow","reason":"interpreter runs inside the exec sandbox | {\"ok\":true,\"output\":{\"exit_code\":1,\"stderr\":\"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 1, in <module>\\nPermissionError: [Errno 1] Operation not permitted: '.env'\\n\",\"stdout\":\"\",\"truncated\":false}}"}

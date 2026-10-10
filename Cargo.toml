@@ -1,0 +1,30 @@
+[workspace]
+members = ["crates/core", "crates/broker", "crates/cell", "crates/eval"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+version = "0.2.0"
+
+[workspace.dependencies]
+anyhow = "1.0"
+base64 = "0.22"
+chrono = { version = "0.4", default-features = false, features = ["clock", "serde"] }
+ed25519-dalek = { version = "2.1", features = ["rand_core"] }
+hex = "0.4"
+libc = "0.2"
+percent-encoding = "2.3"
+rand = "0.8"
+regex = "1.11"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+url = "2.5"
+uuid = { version = "1.8", features = ["serde", "v4"] }
+wait-timeout = "0.2"
+ztac-core = { path = "crates/core" }
+
+[profile.release]
+debug = 1

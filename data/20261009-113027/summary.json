@@ -1,0 +1,152 @@
+{
+  "security_trials": 1406,
+  "attacks": 74,
+  "configurations": 19,
+  "security": {
+    "B0-unconfined": {
+      "succeeded": 74
+    },
+    "B1-allowlist": {
+      "blocked": 8,
+      "succeeded": 66
+    },
+    "B2-command-sandbox": {
+      "blocked": 18,
+      "succeeded": 56
+    },
+    "ZTAC": {
+      "blocked": 58,
+      "escalated": 14,
+      "succeeded": 2
+    },
+    "ZTAC-broker-only": {
+      "blocked": 49,
+      "escalated": 13,
+      "succeeded": 12
+    },
+    "ZTAC-no-approvals": {
+      "blocked": 54,
+      "succeeded": 20
+    },
+    "ZTAC-no-authn": {
+      "blocked": 55,
+      "escalated": 14,
+      "succeeded": 5
+    },
+    "ZTAC-no-dlp_full": {
+      "blocked": 56,
+      "escalated": 14,
+      "succeeded": 4
+    },
+    "ZTAC-no-exec_sandbox": {
+      "blocked": 57,
+      "escalated": 13,
+      "succeeded": 4
+    },
+    "ZTAC-no-fd_walk": {
+      "blocked": 58,
+      "escalated": 14,
+      "succeeded": 2
+    },
+    "ZTAC-no-fd_walk+no_fork": {
+      "blocked": 57,
+      "escalated": 14,
+      "succeeded": 3
+    },
+    "ZTAC-no-freshness": {
+      "blocked": 56,
+      "escalated": 14,
+      "succeeded": 4
+    },
+    "ZTAC-no-net_strict": {
+      "blocked": 56,
+      "escalated": 13,
+      "succeeded": 5
+    },
+    "ZTAC-no-no_fork": {
+      "blocked": 58,
+      "escalated": 14,
+      "succeeded": 2
+    },
+    "ZTAC-no-object_binding": {
+      "blocked": 56,
+      "escalated": 14,
+      "succeeded": 4
+    },
+    "ZTAC-no-resolved_classification": {
+      "blocked": 57,
+      "escalated": 10,
+      "succeeded": 7
+    },
+    "ZTAC-no-sandbox_rules": {
+      "blocked": 50,
+      "escalated": 15,
+      "succeeded": 9
+    },
+    "ZTAC-no-vcs_guard": {
+      "blocked": 57,
+      "escalated": 14,
+      "succeeded": 3
+    },
+    "ZTAC-no-vcs_guard+exec_sandbox": {
+      "blocked": 54,
+      "escalated": 13,
+      "succeeded": 7
+    }
+  },
+  "invalid_security_trials": 0,
+  "operations_per_setup": 46,
+  "ztac_operations_completed": 43,
+  "ztac_operation_prompts": 8,
+  "workflows_per_setup": 7,
+  "ztac_workflows_completed": 4,
+  "agreement_checks": 52,
+  "agreement_checks_passed": 52,
+  "race": {
+    "B0-unconfined": {
+      "trials": 10,
+      "succeeded": 10
+    },
+    "ZTAC": {
+      "trials": 10,
+      "succeeded": 0
+    },
+    "ZTAC-no-fd_walk": {
+      "trials": 10,
+      "succeeded": 0
+    },
+    "ZTAC-no-fd_walk+no_fork": {
+      "trials": 10,
+      "succeeded": 10
+    },
+    "ZTAC-no-no_fork": {
+      "trials": 10,
+      "succeeded": 0
+    }
+  },
+  "new_attack": {
+    "B0-unconfined": "succeeded",
+    "B1-allowlist": "succeeded",
+    "B2-command-sandbox": "succeeded",
+    "ZTAC-broker-only": "blocked",
+    "ZTAC": "blocked",
+    "ZTAC-no-authn": "blocked",
+    "ZTAC-no-freshness": "blocked",
+    "ZTAC-no-resolved_classification": "blocked",
+    "ZTAC-no-vcs_guard": "blocked",
+    "ZTAC-no-exec_sandbox": "blocked",
+    "ZTAC-no-net_strict": "blocked",
+    "ZTAC-no-dlp_full": "blocked",
+    "ZTAC-no-approvals": "blocked",
+    "ZTAC-no-object_binding": "blocked",
+    "ZTAC-no-fd_walk": "blocked",
+    "ZTAC-no-no_fork": "blocked",
+    "ZTAC-no-sandbox_rules": "succeeded",
+    "ZTAC-no-vcs_guard+exec_sandbox": "blocked",
+    "ZTAC-no-fd_walk+no_fork": "blocked"
+  },
+  "benchmark_runs": 3,
+  "ping_median_us": 3967.0,
+  "exec_echo_median_us": 9018.5,
+  "previous_exec_echo_median_us": 8021.5
+}

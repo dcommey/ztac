@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, cite it with these data."
+title: "ZTAC: Object-Bound Confinement for AI Coding Agents"
+type: software
+authors:
+  - family-names: Commey
+    given-names: Daniel
+    orcid: "https://orcid.org/0000-0001-5759-918X"
+version: 0.2.0
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/dcommey/ztac"

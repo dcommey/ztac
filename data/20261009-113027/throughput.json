@@ -1,0 +1,37 @@
+[
+  {
+    "op": "fs_read_4k",
+    "clients": 1,
+    "requests": 750,
+    "seconds": 3.007306,
+    "per_second": 249.39264577665193
+  },
+  {
+    "op": "fs_read_4k",
+    "clients": 2,
+    "requests": 746,
+    "seconds": 3.005843167,
+    "per_second": 248.18327456004627
+  },
+  {
+    "op": "fs_read_4k",
+    "clients": 4,
+    "requests": 755,
+    "seconds": 3.017795834,
+    "per_second": 250.182597342667
+  },
+  {
+    "op": "fs_read_4k",
+    "clients": 8,
+    "requests": 756,
+    "seconds": 3.037797,
+    "per_second": 248.8645554656878
+  },
+  {
+    "op": "fs_read_4k",
+    "clients": 16,
+    "requests": 761,
+    "seconds": 3.065703208,
+    "per_second": 248.23016070641108
+  }
+]
